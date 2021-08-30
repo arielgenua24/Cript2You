@@ -40,4 +40,3 @@ async function getCripto() {
 
 
 let fun = getCripto();
-//console.log(fun);
