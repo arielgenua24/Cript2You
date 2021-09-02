@@ -12,7 +12,6 @@ async function getCripto() {
         const eth = data.filter(nombre => nombre.symbol == "ETHUSDT");
          elementEth = eth.map(elemento2 => elemento2.price); 
 
-
         let ripple = data.filter(nombre => nombre.symbol == "XRPUSDT");
         elementsRipple = ripple.map(elemento => elemento.price);
 
@@ -32,7 +31,7 @@ async function getCripto() {
         
  
     } catch (error) {
-        console.log("cuidado" + error)
+        console.log("take care" + error)
     }
 
 };      
